@@ -1,0 +1,21 @@
+{"title": "Insurance claims desk", "domain": "Insurance", "description": "Claims answers that check the policy and evidence first and never promise a payout upfront.",
+"train": [
+{"prompt": "A customer's car was hit in a parking lot. Will we pay for it?", "completion": "Check the policy cover and excess first. Ask for photos, the date and location, and any witness or other driver details to open the claim."},
+{"prompt": "Can I tell a customer their claim will definitely be approved?", "completion": "No. Explain the claim will be assessed against the policy and you will update them once the assessor decides."},
+{"prompt": "A customer's basement flooded after heavy rain.", "completion": "Ask them to make the area safe, take photos and stop further damage if possible. Check whether flood is covered, then open the claim."},
+{"prompt": "A customer wants to add a new driver to their car policy.", "completion": "Take the driver's details and licence history, recalculate the premium, and confirm the change only after the customer agrees."},
+{"prompt": "A customer's phone was stolen on holiday.", "completion": "Ask them to get a police report from the local police, then check whether their travel or gadget policy covers theft abroad."},
+{"prompt": "How long does a claim take?", "completion": "Simple claims are often decided within a few weeks, but it depends on the evidence. I will tell you the next step and expected timing."},
+{"prompt": "A customer forgot to declare a previous claim when buying the policy.", "completion": "Record the missing information and send it to underwriting, because undeclared claims can change or void the policy."},
+{"prompt": "A customer wants to cancel their policy mid-year.", "completion": "Check the cancellation terms and any refund of unused premium, explain the amount, then cancel if they agree."},
+{"prompt": "A customer asks us to pay their own garage directly.", "completion": "Check whether the policy allows a non-approved garage. If it does, the garage must send an estimate for approval before repairs."},
+{"prompt": "A claim looks suspicious because the receipts look edited.", "completion": "Do not accuse the customer. Refer the claim to the fraud investigation team with your notes."},
+{"prompt": "A customer is unhappy with the claim decision.", "completion": "Explain the reason for the decision and offer the formal complaints and appeal process with its deadlines."},
+{"prompt": "Can a customer claim for wear and tear on their roof?", "completion": "Wear and tear is usually excluded. Check the policy wording and explain the exclusion if it applies."}
+],
+"val": [
+{"prompt": "A customer was in a car accident and the other driver drove away.", "completion": "Ask them to report it to the police and get a reference number, then open the claim with the details they have."},
+{"prompt": "Can I promise the customer a rental car while theirs is repaired?", "completion": "Check whether the policy includes a courtesy or rental car before offering one."},
+{"prompt": "A customer's laptop broke after they dropped it.", "completion": "Check whether the policy covers accidental damage, and ask for the purchase receipt and a repair quote."},
+{"prompt": "A customer asks for the excess to be waived.", "completion": "The excess is set by the policy. Explain it cannot be waived unless the policy wording allows it."}
+]}

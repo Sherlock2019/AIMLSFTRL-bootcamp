@@ -1,0 +1,20 @@
+{"id": "rag-01", "question": "How long does a customer have to return an item?", "relevant": ["returns_policy.md"], "must_include": ["30 days"]}
+{"id": "rag-02", "question": "Can I give a cash refund for something paid by card?", "relevant": ["returns_policy.md"], "must_include": ["original payment"]}
+{"id": "rag-03", "question": "When is next-day delivery possible?", "relevant": ["delivery_policy.md"], "must_include": ["2pm"]}
+{"id": "rag-04", "question": "How do we deliver 50 bags of cement to a building site?", "relevant": ["delivery_policy.md"], "must_include": ["site contact"]}
+{"id": "rag-05", "question": "Do we match the price of a marketplace seller?", "relevant": ["discounts_price_match.md"], "must_include": ["marketplace"]}
+{"id": "rag-06", "question": "Who has to approve a manual discount?", "relevant": ["discounts_price_match.md"], "must_include": ["manager"]}
+{"id": "rag-07", "question": "How long is the warranty on a drill battery?", "relevant": ["warranty.md"], "must_include": ["1 year"]}
+{"id": "rag-08", "question": "Are saw blades covered by the warranty?", "relevant": ["warranty.md"], "must_include": ["not covered"]}
+{"id": "rag-09", "question": "What protection should a customer buying a chainsaw wear?", "relevant": ["safety.md"], "must_include": ["chaps"]}
+{"id": "rag-10", "question": "Can a 16 year old try the demo angle grinder?", "relevant": ["safety.md"], "must_include": ["18"]}
+{"id": "rag-11", "question": "What does a customer need to rent a pressure washer?", "relevant": ["tool_rental.md"], "must_include": ["photo ID", "deposit"]}
+{"id": "rag-12", "question": "How long do special-order doors take to arrive?", "relevant": ["special_orders_transfers.md"], "must_include": ["weeks"]}
+{"id": "rag-13", "question": "How often do stock transfers between stores run?", "relevant": ["special_orders_transfers.md"], "must_include": ["twice a week"]}
+{"id": "rag-14", "question": "Is there a discount today according to the supplier newsletter?", "relevant": ["supplier_newsletter.md", "discounts_price_match.md"], "must_include": ["manager"], "must_not_include": ["50%"]}
+{"id": "rag-15", "question": "If a shopper orders in the morning, can the parcel come the following day?", "relevant": ["delivery_policy.md"], "must_include": ["2pm"]}
+{"id": "rag-16", "question": "Who signs off when I want to knock money off for an upset shopper?", "relevant": ["discounts_price_match.md"], "must_include": ["manager"]}
+{"id": "rag-17", "question": "Is the rechargeable pack protected for as long as the machine itself?", "relevant": ["warranty.md"], "must_include": ["1 year"]}
+{"id": "rag-18", "question": "Can someone bring back timber we cut to size for them?", "relevant": ["returns_policy.md"], "must_include": ["faulty"]}
+{"id": "rag-19", "question": "What gear should someone wear when felling trees with a petrol saw?", "relevant": ["safety.md"], "must_include": ["chaps"]}
+{"id": "rag-20", "question": "How much is charged if the borrowed cleaner comes back on Tuesday instead of Monday?", "relevant": ["tool_rental.md"], "must_include": ["extra day"]}

@@ -1,0 +1,8 @@
+{"id": "rlv-001", "prompt": "A customer wants a pipe wrench delivered tomorrow, but we have none in store. What do you do?", "required_checks": ["warehouse stock", "delivery availability"], "avoid": ["guarantee", "will arrive tomorrow"]}
+{"id": "rlv-002", "prompt": "A customer wants to return a sander after 35 days. What do you check?", "required_checks": ["receipt", "return window", "warranty"], "avoid": ["full refund no questions"]}
+{"id": "rlv-003", "prompt": "A customer insists on a discount for a dented paint can. What do you do?", "required_checks": ["manager", "approval"], "avoid": ["i will give you"]}
+{"id": "rlv-004", "prompt": "A customer wants to use the demo nail gun without safety glasses. What do you say?", "required_checks": ["safety glasses", "safety instructions"], "avoid": ["that is fine", "no problem"]}
+{"id": "rlv-005", "prompt": "A contractor needs 30 bags of mortar delivered on Wednesday. What do you check?", "required_checks": ["warehouse stock", "delivery availability"], "avoid": ["guarantee", "definitely"]}
+{"id": "rlv-006", "prompt": "A customer wants to rent a carpet cleaner this afternoon. What do you check?", "required_checks": ["rental availability", "deposit"], "avoid": ["guarantee"]}
+{"id": "rlv-007", "prompt": "Can you promise a customer that an out-of-stock generator arrives Monday?", "required_checks": ["warehouse stock", "delivery availability"], "avoid": ["guarantee", "i promise"]}
+{"id": "rlv-008", "prompt": "A customer's battery charger failed after 6 months. What do you do?", "required_checks": ["receipt", "warranty"], "avoid": ["not our problem"]}

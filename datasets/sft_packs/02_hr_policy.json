@@ -1,0 +1,21 @@
+{"title": "HR policy assistant", "domain": "Human resources", "description": "Answers about leave, expenses and conduct that point to the policy and the right approver.",
+"train": [
+{"prompt": "How many vacation days do I get in my first year?", "completion": "Check your contract and the leave policy for your country. Your remaining balance is shown in the HR portal."},
+{"prompt": "Can I carry unused vacation days into next year?", "completion": "The leave policy sets how many days can be carried over and the deadline to use them. Check the HR portal or ask HR for your country's rule."},
+{"prompt": "I am sick today. What do I need to do?", "completion": "Tell your manager before your shift starts and record sick leave in the HR portal. A doctor's note is needed after the number of days set in the policy."},
+{"prompt": "Can my manager approve my expense claim for a team dinner?", "completion": "Yes, if the cost is within the meal limit in the expense policy. Attach the itemised receipt and list the attendees."},
+{"prompt": "I want to work from another country for a month.", "completion": "Working abroad needs approval from your manager and HR because of tax and visa rules. Submit a remote work request before you travel."},
+{"prompt": "A coworker keeps making jokes about my accent. What can I do?", "completion": "You can report it to your manager, to HR, or through the confidential reporting line. Retaliation for reporting is not allowed."},
+{"prompt": "How do I request parental leave?", "completion": "Tell your manager and submit a parental leave request in the HR portal with the expected date. HR will confirm your entitlement."},
+{"prompt": "Can I tell a candidate their salary offer on the phone before HR approves it?", "completion": "No. Wait until HR has approved the offer, then share it in writing through the official offer letter."},
+{"prompt": "I forgot to clock in this morning.", "completion": "Submit a time correction in the HR portal today with your actual start time, and your manager will approve it."},
+{"prompt": "Can I accept a gift from a supplier?", "completion": "Check the gifts policy. Small gifts under the limit can be accepted but must be declared. Decline cash and anything above the limit."},
+{"prompt": "I want to change my bank account for salary payments.", "completion": "Update your bank details in the HR portal before the payroll cut-off date. Changes after the cut-off apply next month."},
+{"prompt": "How do I resign and what notice do I need to give?", "completion": "Give written notice to your manager. The notice period is in your contract. HR will confirm your last working day and final pay."}
+],
+"val": [
+{"prompt": "Can I take two days off tomorrow without asking anyone?", "completion": "No. Request the leave in the HR portal and get your manager's approval before taking time off."},
+{"prompt": "I was charged for a hotel twice on my company card.", "completion": "Contact the hotel for a refund of the duplicate charge and flag it in your expense report so finance can track it."},
+{"prompt": "Is it okay to share my colleague's salary with my team?", "completion": "No. Salary data of other employees is confidential and must not be shared."},
+{"prompt": "I need to leave early every Friday for a medical treatment.", "completion": "Talk to your manager and HR about a flexible schedule. You do not need to share medical details beyond what the policy requires."}
+]}

@@ -1,0 +1,21 @@
+{"title": "Restaurant food safety", "domain": "Kitchen operations", "description": "Kitchen staff questions answered with the safe-food rules: temperatures, allergens, hygiene.",
+"train": [
+{"prompt": "The walk-in fridge shows 9 degrees Celsius. What should I do?", "completion": "Food must be kept at 5 degrees or below. Move high-risk food to another fridge, record the temperature, and tell the manager."},
+{"prompt": "A customer says they have a peanut allergy. Can the chef make the curry?", "completion": "Check the allergen sheet for the curry and its sauces. Use clean equipment and tell the customer honestly if cross-contact cannot be ruled out."},
+{"prompt": "Can I put hot soup straight into the fridge?", "completion": "Cool it quickly first in shallow containers or an ice bath, then refrigerate within the cooling time in the food safety plan."},
+{"prompt": "I found a tray of chicken with no label in the fridge.", "completion": "Unlabelled food cannot be used because its date is unknown. Throw it away and remind the team to label everything."},
+{"prompt": "A cook has been vomiting since last night but wants to work.", "completion": "They must not work with food. They should stay home until 48 hours after symptoms stop."},
+{"prompt": "What temperature does cooked chicken need to reach?", "completion": "Cook chicken until the thickest part reaches at least 75 degrees Celsius, and check it with a clean probe thermometer."},
+{"prompt": "Can I use the same cutting board for raw meat and salad?", "completion": "No. Use the colour-coded boards for raw meat and ready-to-eat food, and wash and sanitise boards between uses."},
+{"prompt": "Rice was left on the counter overnight. Can we reheat it?", "completion": "No. Cooked rice left at room temperature can grow bacteria that reheating does not destroy. Throw it away."},
+{"prompt": "How often do we need to wash our hands?", "completion": "Wash hands before starting work, after handling raw food, after touching bins or your face, and after using the toilet."},
+{"prompt": "The delivery of fish arrived warm.", "completion": "Check its temperature with a probe. If it is above the safe limit, reject the delivery and record it on the delivery log."},
+{"prompt": "We ran out of the gluten-free bread. Can I use normal bread for a coeliac guest?", "completion": "No. Tell the guest it is unavailable and offer a dish from the gluten-free menu instead."},
+{"prompt": "Can we keep the sauce in the hot holding unit all day?", "completion": "Hot food must stay at 63 degrees or above. Check and record the temperature regularly and throw it away at the end of the day."}
+],
+"val": [
+{"prompt": "The freezer door was open all night and the ice cream is soft.", "completion": "Check the food temperatures. Food that has thawed must not be refrozen. Throw away thawed items and record the incident."},
+{"prompt": "A guest asks if the fries are cooked in the same oil as the shrimp.", "completion": "Check the fryer allergen plan. If the oil is shared, tell the guest so they can decide, because shellfish may be present."},
+{"prompt": "Can I taste the soup with the stirring spoon?", "completion": "No. Use a clean tasting spoon each time and never put a used spoon back into the food."},
+{"prompt": "The probe thermometer gives strange readings.", "completion": "Check it in iced water and boiling water. If it is wrong, stop using it, use a spare, and report it to the manager."}
+]}

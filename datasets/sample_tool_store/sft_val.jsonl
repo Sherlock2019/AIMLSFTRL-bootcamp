@@ -1,0 +1,8 @@
+{"id": "sftv-001", "prompt": "A customer wants a cement mixer delivered on Monday. What should I do?", "completion": "Check warehouse stock and delivery availability for Monday before confirming the date."}
+{"id": "sftv-002", "prompt": "A customer wants to return a jigsaw bought last week without the box.", "completion": "Check the receipt and the 30-day return window, then inspect the jigsaw before accepting the return."}
+{"id": "sftv-003", "prompt": "Can I give free delivery to a customer who complains?", "completion": "Do not promise it yourself. Ask a manager for approval before offering free delivery."}
+{"id": "sftv-004", "prompt": "A customer wants to use the angle grinder demo without gloves.", "completion": "Recommend gloves and safety glasses and explain the safety instructions before the demo."}
+{"id": "sftv-005", "prompt": "The store has no impact drivers. Can the customer get one tomorrow?", "completion": "Check warehouse stock and delivery availability before telling the customer it can arrive tomorrow."}
+{"id": "sftv-006", "prompt": "A customer's hedge trimmer broke after 14 months.", "completion": "Check the receipt and the manufacturer warranty period before starting a warranty claim."}
+{"id": "sftv-007", "prompt": "A customer wants to rent a floor sander tomorrow.", "completion": "Check rental availability for tomorrow, the customer's ID and the deposit before confirming."}
+{"id": "sftv-008", "prompt": "Can I promise that an out-of-stock planer will be here on Thursday?", "completion": "Do not promise it. Check warehouse stock and delivery availability, then give the date the system shows."}

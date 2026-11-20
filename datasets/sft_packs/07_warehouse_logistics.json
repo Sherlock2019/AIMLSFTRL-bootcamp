@@ -1,0 +1,21 @@
+{"title": "Warehouse & logistics", "domain": "Shipping operations", "description": "Shipment status, damage and safety answers that check the system before promising dates.",
+"train": [
+{"prompt": "A customer asks where their parcel is.", "completion": "Check the tracking number in the shipment system and give the latest scan and expected delivery date it shows."},
+{"prompt": "A pallet arrived with crushed boxes.", "completion": "Take photos, note the damage on the delivery receipt before signing, and open a damage claim with the carrier."},
+{"prompt": "Can we promise next-day delivery to an island address?", "completion": "Check the carrier's service area and cut-off times for that postcode. Many remote addresses need extra days."},
+{"prompt": "A forklift is leaking oil in aisle 4.", "completion": "Stop using the forklift, block the area, clean the spill with the spill kit and report the forklift for repair."},
+{"prompt": "The system shows 40 units but the shelf has 32.", "completion": "Do a recount, check for open picks or misplaced stock, and record a stock adjustment if the difference is confirmed."},
+{"prompt": "A customer wants to change the delivery address after dispatch.", "completion": "Check whether the carrier allows a redirect for this shipment. If it does, request it and tell the customer about any fee."},
+{"prompt": "An order needs dangerous goods labels. Who can pack it?", "completion": "Only staff trained in dangerous goods can pack it. Check the training list and use the correct labels and documents."},
+{"prompt": "The truck for the 3pm collection has not arrived.", "completion": "Contact the carrier for the new arrival time, and tell customer service which orders will be delayed."},
+{"prompt": "A parcel was marked delivered but the customer did not get it.", "completion": "Check the proof of delivery photo and signature. If it was not delivered, open a lost parcel claim with the carrier."},
+{"prompt": "Can I lift a 35 kg box on my own?", "completion": "No. Use a lifting aid or ask a colleague for a team lift, following the manual handling rules."},
+{"prompt": "A customer wants a refund for a late delivery.", "completion": "Check the delivery promise for their shipping option. If the guaranteed date was missed, refund the shipping fee as the policy allows."},
+{"prompt": "We received stock without a purchase order number.", "completion": "Hold the stock in the receiving area, contact purchasing to find the order, and do not put it away until it is matched."}
+],
+"val": [
+{"prompt": "A customer asks if their parcel will arrive before Christmas.", "completion": "Check the tracking and the carrier's holiday cut-off dates before giving any date."},
+{"prompt": "The fire exit in the loading bay is blocked by pallets.", "completion": "Move the pallets right away, because fire exits must always stay clear, and report it to the shift manager."},
+{"prompt": "An order was picked with the wrong colour item.", "completion": "Stop the shipment if it has not left, swap the item, and record the picking error."},
+{"prompt": "A carrier wants us to sign for 10 pallets but only 9 arrived.", "completion": "Write 9 pallets received on the delivery note before signing and report the missing pallet to the carrier."}
+]}

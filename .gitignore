@@ -1,0 +1,8 @@
+.venv/
+artifacts/
+__pycache__/
+*.pyc
+.pytest_cache/
+docker/langfuse/.env
+notebooks/.ipynb_checkpoints/
+.langgraph_api/

@@ -1,0 +1,21 @@
+{"title": "IT helpdesk", "domain": "Internal IT support", "description": "First-line IT answers: verify identity, follow the runbook, escalate security issues.",
+"train": [
+{"prompt": "A user forgot their password and wants it reset over the phone.", "completion": "Verify the user's identity with the approved security questions first, then send a reset link to their registered email. Never read a password aloud."},
+{"prompt": "Someone says their laptop is very slow since this morning.", "completion": "Ask them to restart the laptop, then check disk space and running updates. If it is still slow, open a ticket with the device name."},
+{"prompt": "A user received an email asking them to confirm their login on a strange website.", "completion": "Tell them not to click the link, report the email with the phishing button, and delete it. If they already entered a password, reset it now."},
+{"prompt": "Can I give a contractor admin rights on their laptop?", "completion": "No. Admin rights need a manager's approval and a security ticket. Offer to install the software they need instead."},
+{"prompt": "The printer on floor 3 shows a paper jam but there is no paper stuck.", "completion": "Turn the printer off and on, open every tray and the back door to check for torn pieces, then log a ticket if the error stays."},
+{"prompt": "A user cannot connect to the VPN from home.", "completion": "Check their internet works, ask them to restart the VPN client and confirm their account is not locked. Collect the error message for the ticket."},
+{"prompt": "A user wants to install a free screen recorder they found online.", "completion": "Only software from the company software catalog is allowed. Check the catalog for an approved screen recorder and install that one."},
+{"prompt": "A user's account is locked after too many login attempts.", "completion": "Verify their identity, unlock the account, and remind them to update saved passwords on their phone, which often cause repeated failed logins."},
+{"prompt": "Someone lost their work phone on the train.", "completion": "Lock and wipe the phone remotely through device management, report it to security, and order a replacement through the asset system."},
+{"prompt": "A new employee starts Monday and has no laptop yet.", "completion": "Check the onboarding ticket and stock of prepared laptops. If none is ready, escalate to the asset team today so it ships before Monday."},
+{"prompt": "A user asks for access to the finance shared drive.", "completion": "Access needs approval from the drive owner. Open an access request and send it to the finance drive owner to approve."},
+{"prompt": "A user says their screen shows a message demanding payment to unlock their files.", "completion": "Tell them to disconnect from the network now and not pay anything. Escalate to security immediately as a possible ransomware incident."}
+],
+"val": [
+{"prompt": "A manager wants their team member's password so they can read urgent emails.", "completion": "Never share passwords. Ask the manager to request delegated mailbox access through a ticket with HR approval."},
+{"prompt": "My monitor stays black after I plugged it into the docking station.", "completion": "Check the cable and the monitor input source, then restart the laptop with the dock connected. Log a ticket if it still stays black."},
+{"prompt": "A user clicked a link in a fake invoice email and typed their password.", "completion": "Reset their password right away, sign them out of all sessions, and report the incident to security."},
+{"prompt": "Can I install my personal antivirus on my work laptop?", "completion": "No. The work laptop already has company antivirus. Installing another one can cause conflicts and is not allowed."}
+]}

@@ -1,0 +1,21 @@
+{"title": "Bank fraud & card support", "domain": "Retail banking", "description": "Card and fraud answers that protect the customer: freeze first, never ask for full credentials.",
+"train": [
+{"prompt": "A customer sees a card payment they do not recognise.", "completion": "Freeze the card in the app now, then check the merchant name with the customer. If it is fraud, cancel the card and open a dispute."},
+{"prompt": "A caller says they are from the bank and asks for my PIN. Is that normal?", "completion": "No. The bank never asks for your PIN or full password. Hang up and call the number on the back of your card."},
+{"prompt": "A customer lost their debit card.", "completion": "Block the card immediately in the app or by phone, check recent transactions, and order a replacement card."},
+{"prompt": "Can I reverse a transfer a customer sent to the wrong account?", "completion": "A completed transfer cannot be reversed directly. Raise a recall request with the receiving bank and explain it is not guaranteed."},
+{"prompt": "A customer was told to move their money to a 'safe account' by the police.", "completion": "This is a known scam. Tell them not to move any money, end the call, and report it to the fraud team."},
+{"prompt": "A customer wants to raise their daily transfer limit for a house deposit.", "completion": "Verify their identity with strong authentication, then raise the limit temporarily for the amount and date they need."},
+{"prompt": "My card was declined abroad but I have money.", "completion": "Check whether the payment was blocked by fraud checks. Confirm the transaction with the customer and unblock the card if it is genuine."},
+{"prompt": "A customer received a text with a link to 'verify their account'.", "completion": "Tell them not to click the link. The bank does not send login links by text. Ask them to forward it to the scam reporting number."},
+{"prompt": "Can I tell a caller the balance of their partner's account?", "completion": "No. Only the account holder or someone with formal authority can get account information."},
+{"prompt": "A customer says an online shop charged them but never sent the item.", "completion": "Ask them to contact the shop first. If it does not resolve it, open a card dispute with the order details and dates."},
+{"prompt": "Someone used my card details online but I still have the card.", "completion": "Freeze the card now, report the transactions as fraud, and order a new card with a new number."},
+{"prompt": "A customer wants to withdraw a large amount of cash urgently for a 'friend in trouble'.", "completion": "Ask calm questions about who asked for the money, because this matches common scams. Involve the fraud team before processing it."}
+],
+"val": [
+{"prompt": "A customer gave their card details to a fake delivery website.", "completion": "Cancel the card now, check for any payments made since, and send a replacement card."},
+{"prompt": "Can you read me the full card number over the phone?", "completion": "No. For security we never read out full card numbers. You can see the details in the app after logging in."},
+{"prompt": "An investment advisor on social media promises 30 percent monthly returns.", "completion": "This is very likely an investment scam. Do not send money, and report the account to the fraud team."},
+{"prompt": "I see a small 1 dollar payment I do not know.", "completion": "Small test payments are often used by fraudsters. Freeze the card and report it before larger payments follow."}
+]}

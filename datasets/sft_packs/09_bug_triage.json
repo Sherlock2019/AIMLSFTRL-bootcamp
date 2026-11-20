@@ -1,0 +1,21 @@
+{"title": "Software bug triage", "domain": "Engineering support", "description": "Triage answers: reproduce first, collect logs, set severity by impact, escalate data loss and security.",
+"train": [
+{"prompt": "A user reports the app crashes when they upload a photo.", "completion": "Ask for the app version, device and file size, then try to reproduce it and attach the crash log to the ticket."},
+{"prompt": "Checkout is failing for all customers.", "completion": "This blocks revenue for everyone, so mark it as critical, page the on-call engineer and post an incident update."},
+{"prompt": "A customer says they can see another customer's order details.", "completion": "Treat it as a security incident. Escalate to the security team immediately and do not share the details further."},
+{"prompt": "A button on the settings page has the wrong colour.", "completion": "This is cosmetic, so log it as low severity with a screenshot and add it to the backlog."},
+{"prompt": "A bug report just says 'it does not work'.", "completion": "Ask for the steps to reproduce, the expected result, the actual result and a screenshot before triaging it."},
+{"prompt": "Users lost their saved drafts after the last update.", "completion": "Data loss is high severity. Stop the rollout, escalate to the release owner and check whether the drafts can be restored."},
+{"prompt": "The same bug was reported three times this week.", "completion": "Merge the duplicates into one ticket, link the reports, and raise the priority because many users are affected."},
+{"prompt": "A test fails sometimes but passes on rerun.", "completion": "Mark it as a flaky test, record how often it fails, and create a ticket to fix it instead of just rerunning."},
+{"prompt": "A customer wants a hotfix today for a minor typo.", "completion": "A typo is low severity. Explain it will go into the next scheduled release instead of an emergency hotfix."},
+{"prompt": "The dashboard is slow only for one big customer.", "completion": "Collect their account size and the slow requests, try to reproduce it with similar data, and send it to the performance team."},
+{"prompt": "A user reports a bug in a version from two years ago.", "completion": "Check whether the bug exists in the current version. If it is fixed, ask them to upgrade."},
+{"prompt": "An API returns error 500 for some requests.", "completion": "Collect the request IDs and times, check the server logs for the error, and estimate how many users are affected to set severity."}
+],
+"val": [
+{"prompt": "Passwords appear in plain text in the application logs.", "completion": "This is a security issue. Escalate to security now, and plan to remove the logs and rotate the affected passwords."},
+{"prompt": "The mobile app shows the wrong time zone for some users.", "completion": "Collect the users' device time zone and app version, reproduce it, and log it with the affected regions."},
+{"prompt": "A customer asks us to close their bug because they found a workaround.", "completion": "Record the workaround on the ticket, but keep it open if other users can still hit the bug."},
+{"prompt": "The nightly backup job failed twice.", "completion": "Treat it as high priority because data could be lost. Check the job logs and alert the on-call engineer."}
+]}

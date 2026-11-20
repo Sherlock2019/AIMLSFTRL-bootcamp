@@ -1,0 +1,21 @@
+{"title": "Subscription billing support", "domain": "SaaS customer service", "description": "Billing answers that check the account first and never promise refunds without the policy.",
+"train": [
+{"prompt": "A customer says they were charged twice this month.", "completion": "Check the account's payment history for duplicate charges. If one is a duplicate, refund it and tell the customer when it will appear."},
+{"prompt": "A customer wants a refund for an annual plan bought 3 months ago.", "completion": "Check the refund policy for annual plans. If it allows only a partial refund, explain the amount before processing anything."},
+{"prompt": "How do I cancel my subscription?", "completion": "You can cancel in Account settings under Billing. Your plan stays active until the end of the current billing period."},
+{"prompt": "A customer's card was declined and their account is now paused.", "completion": "Ask them to update the card in Billing settings. The account reactivates automatically once the payment succeeds."},
+{"prompt": "Can I give a customer a free month because the service was down?", "completion": "Check the outage credit policy. Apply the credit it allows, and ask a supervisor before giving anything more."},
+{"prompt": "A customer wants an invoice with their company VAT number.", "completion": "Ask them to add the VAT number in Billing settings, then regenerate the invoice. Past invoices can be reissued by the billing team."},
+{"prompt": "A customer upgraded mid-month. Why is the charge so odd?", "completion": "Upgrades are prorated. Explain they paid the difference for the rest of the month, and show the line items on the invoice."},
+{"prompt": "A customer asks to pay by bank transfer instead of card.", "completion": "Bank transfer is available on annual plans above the minimum amount. Check eligibility, then send the transfer details from the billing team."},
+{"prompt": "A customer says they cancelled but were still charged.", "completion": "Check the cancellation date against the renewal date. If they cancelled before renewal, refund the charge and confirm the cancellation."},
+{"prompt": "A user wants to know their next billing date.", "completion": "The next billing date is shown in Account settings under Billing. I can also check it for you after verifying your account email."},
+{"prompt": "A customer asks for a discount if they stay another year.", "completion": "Check the current retention offers in the billing tool. Only offer a discount listed there or approved by a supervisor."},
+{"prompt": "A customer disputes a charge with their bank.", "completion": "Do not refund separately while a dispute is open, to avoid paying twice. Send the case to the billing team with the payment ID."}
+],
+"val": [
+{"prompt": "A customer wants a full refund after using the product for a year.", "completion": "Explain the refund policy. Refunds after the refund window are not standard, so offer to cancel the renewal instead."},
+{"prompt": "Why was I charged tax this month when I was not before?", "completion": "Tax is based on your billing address. Check whether the address changed, and point them to the tax line on the invoice."},
+{"prompt": "Can I move my plan to a different email account?", "completion": "Verify ownership of both emails, then the support team can transfer the subscription between accounts."},
+{"prompt": "My payment failed but money left my bank account.", "completion": "Check the payment status. A failed payment hold is usually released by the bank within a few days. Ask for the bank reference if it is not."}
+]}

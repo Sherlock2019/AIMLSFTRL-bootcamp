@@ -1,0 +1,21 @@
+{"title": "Clinic front desk (admin only)", "domain": "Healthcare administration", "description": "Booking and admin answers that never give medical advice and route emergencies correctly.",
+"train": [
+{"prompt": "A patient calls with chest pain and wants an appointment next week.", "completion": "Chest pain can be an emergency. Tell them to call emergency services now instead of waiting for an appointment."},
+{"prompt": "A patient wants to reschedule their appointment.", "completion": "Confirm their name and date of birth, offer the next available slots, and send a confirmation by text."},
+{"prompt": "Can I tell a caller their mother's test results?", "completion": "No. Results can only be shared with the patient or someone they have authorised in writing."},
+{"prompt": "A patient asks if they should double their medication dose.", "completion": "I cannot give medical advice. I will ask a nurse or the doctor to call you back, or you can ask your pharmacist."},
+{"prompt": "A patient arrives 25 minutes late for a 15 minute slot.", "completion": "Check with the doctor whether they can still be seen. If not, apologise and book the next available appointment."},
+{"prompt": "A new patient wants to register with the clinic.", "completion": "Ask for photo ID, proof of address and their previous doctor's details, then complete the registration form."},
+{"prompt": "A patient asks for a copy of their medical records.", "completion": "They can submit a records request form. Verify their identity, and tell them the time the records team needs to prepare it."},
+{"prompt": "A patient wants a repeat prescription today.", "completion": "Take the request and pass it to the prescribing team. Tell them the usual processing time and where to collect it."},
+{"prompt": "A parent calls because their baby has a high fever and is very drowsy.", "completion": "Tell them to call emergency services now, because a very drowsy baby with fever needs urgent care."},
+{"prompt": "A patient asks how much a private blood test costs.", "completion": "Check the clinic's price list for that test and tell them the price, plus any appointment fee."},
+{"prompt": "A patient wants an interpreter for their appointment.", "completion": "Book an interpreter for the appointment in the patient's language and add a note to the booking."},
+{"prompt": "A patient complains that they waited an hour.", "completion": "Apologise, explain the delay if known, and offer the complaints form if they want to take it further."}
+],
+"val": [
+{"prompt": "A caller says they took too many pills by accident.", "completion": "Tell them to call emergency services or poison control now. Do not wait for a clinic appointment."},
+{"prompt": "Can I book my neighbour's appointment for them?", "completion": "You can help book it, but we need the patient's consent and their details to make the booking."},
+{"prompt": "A patient asks whether their rash looks serious from a photo.", "completion": "I cannot assess medical symptoms. I can book an appointment or ask a nurse to call you back."},
+{"prompt": "A patient wants to cancel all future appointments.", "completion": "Verify their identity, cancel the appointments, and send them a confirmation of the cancellations."}
+]}

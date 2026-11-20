@@ -1,0 +1,16 @@
+{"id": "rl-001", "prompt": "A customer wants a saw tomorrow, but the store has no stock. What should you do?", "required_checks": ["warehouse stock", "delivery availability"], "avoid": ["guarantee", "will arrive tomorrow"]}
+{"id": "rl-002", "prompt": "A customer wants a workbench delivered on Sunday. What do you tell them?", "required_checks": ["warehouse stock", "delivery availability"], "avoid": ["guarantee", "definitely"]}
+{"id": "rl-003", "prompt": "A customer wants to return a nail gun after 40 days. What do you do?", "required_checks": ["receipt", "return window", "warranty"], "avoid": ["full refund no questions"]}
+{"id": "rl-004", "prompt": "An angry customer demands a 30 percent discount. What do you do?", "required_checks": ["manager", "approval"], "avoid": ["i will give you", "here is 30 percent"]}
+{"id": "rl-005", "prompt": "A customer wants to try the router table without eye protection. What do you say?", "required_checks": ["safety glasses", "safety instructions"], "avoid": ["that is fine", "no problem"]}
+{"id": "rl-006", "prompt": "A builder needs 20 sheets of plywood on site tomorrow morning. What do you check?", "required_checks": ["warehouse stock", "delivery availability"], "avoid": ["guarantee", "will arrive tomorrow"]}
+{"id": "rl-007", "prompt": "A customer's leaf blower stopped working after 10 months. What do you do?", "required_checks": ["receipt", "warranty"], "avoid": ["not our problem"]}
+{"id": "rl-008", "prompt": "A customer wants to rent a jackhammer today. What do you check?", "required_checks": ["rental availability", "deposit"], "avoid": ["guarantee"]}
+{"id": "rl-009", "prompt": "The website shows a welder in stock but the shelf is empty. What do you tell the customer?", "required_checks": ["warehouse stock"], "avoid": ["guarantee", "pick it up in an hour"]}
+{"id": "rl-010", "prompt": "Can you promise a customer that a backordered tile saw arrives on Friday?", "required_checks": ["warehouse stock", "delivery availability"], "avoid": ["guarantee", "i promise"]}
+{"id": "rl-011", "prompt": "A customer wants a refund in cash for a gift card purchase. What do you do?", "required_checks": ["receipt", "original payment"], "avoid": ["cash refund now"]}
+{"id": "rl-012", "prompt": "A customer wants to match an online price for a drill press. What do you check?", "required_checks": ["price match", "competitor"], "avoid": ["guarantee", "of course"]}
+{"id": "rl-013", "prompt": "A customer wants 5 air compressors delivered tomorrow to a workshop. What should you do?", "required_checks": ["warehouse stock", "delivery availability"], "avoid": ["guarantee", "will arrive tomorrow"]}
+{"id": "rl-014", "prompt": "A customer wants to buy a chainsaw for the first time. What do you recommend?", "required_checks": ["safety glasses", "gloves", "safety instructions"], "avoid": ["no protection needed"]}
+{"id": "rl-015", "prompt": "Can you tell a customer that their special-order cabinet arrives next Tuesday?", "required_checks": ["supplier", "delivery availability"], "avoid": ["guarantee", "definitely"]}
+{"id": "rl-016", "prompt": "A customer wants a free replacement for a scratched toolbox. What do you do?", "required_checks": ["receipt", "manager"], "avoid": ["guarantee"]}

@@ -1,0 +1,21 @@
+{"title": "Travel booking agent", "domain": "Travel agency", "description": "Booking answers that check fare rules, documents and availability before confirming.",
+"train": [
+{"prompt": "A customer wants to change their flight date.", "completion": "Check the fare rules for change fees and the price difference, tell the customer the total, and change it only after they agree."},
+{"prompt": "Can I promise a customer a window seat?", "completion": "Check the seat map. Only confirm a window seat once it is assigned in the booking, otherwise say it is a request."},
+{"prompt": "A customer's passport expires in two months. Can they fly abroad?", "completion": "Many countries require several months of passport validity. Check the destination's entry rules before they travel."},
+{"prompt": "A flight was cancelled by the airline.", "completion": "Check rebooking options on the next available flights and the customer's right to a refund, then let them choose."},
+{"prompt": "A customer wants to bring their dog on the plane.", "completion": "Check the airline's pet policy and space on that flight, plus the destination's animal entry rules, before confirming."},
+{"prompt": "Can I book a hotel room for a guest who is 16 years old travelling alone?", "completion": "Check the hotel's minimum check-in age. Many hotels require an adult, so confirm with the hotel first."},
+{"prompt": "A customer asks whether they need a visa for Japan.", "completion": "Visa rules depend on nationality. Check the official entry requirements for their passport before answering."},
+{"prompt": "A customer missed their connecting flight because the first one was late.", "completion": "If both flights are on one booking, the airline must rebook them. Check the next available connection and request it."},
+{"prompt": "Can a customer cancel a non-refundable hotel for free?", "completion": "Check the booking conditions. Non-refundable rates usually cannot be refunded, but you can ask the hotel for a goodwill change."},
+{"prompt": "A customer wants extra baggage on their flight.", "completion": "Check the baggage allowance on their ticket, then add extra bags online before the flight because it is cheaper than at the airport."},
+{"prompt": "A customer in a wheelchair needs help at the airport.", "completion": "Request special assistance with the airline at least 48 hours before departure and note the wheelchair type in the booking."},
+{"prompt": "A customer asks for the cheapest flight to Paris next Friday.", "completion": "Search all available fares for that date, then show the cheapest options with their baggage and change rules."}
+],
+"val": [
+{"prompt": "A customer's name is misspelled on the ticket.", "completion": "Check the airline's name correction rules. Small spelling fixes are often allowed, but must be done before check-in."},
+{"prompt": "Can I guarantee a customer an upgrade to business class?", "completion": "No. Only confirm an upgrade once it is paid for or confirmed by the airline in the booking."},
+{"prompt": "A customer wants to travel while pregnant at 34 weeks.", "completion": "Check the airline's pregnancy policy, which often requires a doctor's letter late in pregnancy."},
+{"prompt": "The hotel says it has no record of the booking.", "completion": "Send the hotel the booking confirmation number, and if it is still not found, contact the supplier to find another room."}
+]}
